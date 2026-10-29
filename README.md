@@ -10,6 +10,10 @@
 
 **版次** v2 · **日期** 2026-10-29 · **作者** Chen Tai Lin
 
+<p align="center">
+  <img src="docs/screenshots/recording-zh.png" alt="錄影中的主畫面 (中文)" width="820">
+</p>
+
 ### 功能
 
 - **移動偵測錄影**:以畫面差異偵測移動,有移動才開始錄影,移動停止後再續錄指定秒數後結束。
@@ -22,6 +26,26 @@
 - **錄影檔管理**:列出所有錄影檔,可直接播放、刪除,或依保留天數清除舊檔(刪除前會確認)。
 - **影像時間浮水印**:日期時間寫在畫面右上角(預覽與錄影檔皆有)。
 - **雙語介面**:右上角黃色按鈕切換 `ENG` / `中文`,首次使用預設中文,並記住上次選擇。
+
+### 畫面
+
+**排程時段外**:鏡頭自動關閉,並倒數到下一次偵測啟動(Log 內容為範例)。
+
+<p align="center">
+  <img src="docs/screenshots/main-zh.png" alt="排程時段外與倒數計時 (中文)" width="720">
+</p>
+
+**錄影檔**:列出所有錄影,可播放、刪除。
+
+<p align="center">
+  <img src="docs/screenshots/files-zh.png" alt="錄影檔頁 (中文)" width="720">
+</p>
+
+**關於**:版次、日期、作者。
+
+<p align="center">
+  <img src="docs/screenshots/about-zh.png" alt="關於頁 (中文)" width="560">
+</p>
 
 ### 系統需求
 
@@ -116,6 +140,10 @@ A Windows desktop app that does **motion-detection recording** with your local w
 
 **Version** v2 · **Date** 2026-10-29 · **Author** Chen Tai Lin
 
+<p align="center">
+  <img src="docs/screenshots/recording-en.png" alt="Main window while recording (English)" width="820">
+</p>
+
 ### Features
 
 - **Motion-triggered recording**: detects motion by frame differencing, starts recording on motion, and keeps recording for a configurable number of seconds after motion stops.
@@ -128,6 +156,26 @@ A Windows desktop app that does **motion-detection recording** with your local w
 - **Recording management**: lists all recordings; play or delete them, or delete old files by age (with confirmation).
 - **Timestamp overlay**: date and time are drawn at the top-right of the image (preview and recordings).
 - **Bilingual UI**: the yellow button at the top-right toggles `ENG` / `中文`. Chinese is the default on first run, and your choice is remembered.
+
+### Screenshots
+
+**Outside the schedule**: the camera turns off and a countdown runs to the next detection window (log contents are sample data).
+
+<p align="center">
+  <img src="docs/screenshots/main-en.png" alt="Outside the schedule with countdown (English)" width="720">
+</p>
+
+**Recordings**: all recordings in one list — play or delete them.
+
+<p align="center">
+  <img src="docs/screenshots/files-en.png" alt="Recordings page (English)" width="720">
+</p>
+
+**About**: version, date, and author.
+
+<p align="center">
+  <img src="docs/screenshots/about-en.png" alt="About page (English)" width="560">
+</p>
 
 ### Requirements
 

@@ -5,6 +5,10 @@ config.json
 motion_log.txt
 *.mp4
 
+# --- 原始截圖 (未裁切,僅供挑選;README 用的在 docs/screenshots/) ---
+# Raw screenshots (uncropped; the ones used by the README live in docs/screenshots/)
+畫面/
+
 # --- 打包產物 (請改放 GitHub Releases) ---
 # Build output (publish via GitHub Releases instead)
 build/
