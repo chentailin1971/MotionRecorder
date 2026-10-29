@@ -1,0 +1,12 @@
+# Motion Detection Recording — 執行所需套件 / runtime dependencies
+# 安裝 / Install:  pip install -r requirements.txt
+# 版本下限為開發與測試時使用的版本 (Python 3.13, Windows 11)
+# Minimums are the versions it was developed and tested with.
+
+opencv-python>=4.10.0
+customtkinter>=6.0.0
+pillow>=11.0.0
+numpy>=2.0.0
+
+# 只有「自行打包 exe」才需要 / only needed to build the exe yourself:
+#   pip install pyinstaller

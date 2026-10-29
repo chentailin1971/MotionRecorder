@@ -1,0 +1,30 @@
+# --- 執行時產生的資料 (含個人錄影與設定,切勿公開) ---
+# Runtime data (personal recordings / settings — never publish)
+recordings/
+config.json
+motion_log.txt
+*.mp4
+
+# --- 打包產物 (請改放 GitHub Releases) ---
+# Build output (publish via GitHub Releases instead)
+build/
+dist/
+*.spec
+*.zip
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- 編輯器 / 系統 ---
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store
